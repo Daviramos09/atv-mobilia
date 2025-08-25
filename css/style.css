@@ -7,4 +7,85 @@ a{
     text-decoration: none; /* remove o sublinhado dos links */
     color: black; /* altera a cor de todos os links das páginas */
 }
+/*header*/
+header {
+  padding: 5vw 10vw 5vw 10vw;
+  & nav {
+    display: flex;
+    justify-content: space-between;
+    & ul {
+      display: flex;
+      & li {
+        margin:  0 10px 0 10px;
+        position: relative;
 
+
+        & ul {
+          display: none;
+        }
+        & li:hover ul {
+          display: block;
+          position: absolute;
+        }
+      }
+      & h1 {
+        font-weight: bold;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+header nav ul li.atual a {
+  color: #FB2E86;
+}
+header a {
+  color: #0D0E43;
+}
+/*main*/
+section.banner {
+  display: flex;
+  padding: 5vw 10vw 5vw 10vw;
+  background-color: #F2F0FF;
+}
+section.banner h3 {
+  color: #FB2E86;
+  font-weight: bold;
+  margin: 5px;
+}
+section.banner h2 {
+ font-weight: bold;
+ font-size: 3.2rem;
+}
+section.banner p {
+  color: #8ABFB9;
+}
+section.banner p button {
+  background-color: #FB2E86;
+  color: white;
+  padding: 2vw 4vw 2vw 4vw;
+  margin: 4vw 0;
+  border-radius: 8px;
+}
+section.banner div.textos{
+  padding: auto;
+}
+/*produtos*/
+section.produos{
+  padding: 5vw 10vw 5vw 10vw;
+}
+
+section.produtos h2{
+  text-align: center;
+  font-weight: bold ;
+  font-size: 2.5rem;
+  color: black;
+}
+section.produtos ul {
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: space-between;
+}
+section.produtos ul li{
+width: 30%;
+}
