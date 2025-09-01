@@ -89,3 +89,60 @@ section.produtos ul {
 section.produtos ul li{
 width: 30%;
 }
+section.produtos ul li p {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+section.produtos ul li h3 {
+  color: #151875;
+  font-size: 16px;
+  margin: 15px 0px 0px 0px;
+}
+section.produtos ul li h3 span {
+  border-bottom: 1px solid gray;
+}
+/*convite */
+section.convite {
+  padding: 5vw 10vw 5vw 10vw;
+  background: url(../src/images/back-section-update.png);
+  text-align: center;
+}
+section.convite h2{
+  padding: 5vw 20vw 5vw 20vw;
+  font-size: 30px;
+  color: #151875;
+}
+section.convite p button{
+ background-color: #fb2386;
+ color: white;
+ padding: 10px 30px;
+ border-radius: 2px;
+ margin: 2vw 0;
+}
+/*footer*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw 10vw 5vw 10vw;
+  background-color: #eeeffb;
+}
+footer  div h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 1.5vw 0;
+} 
+footer div h4{
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+footer div p  {
+  color: #8a8fb9;
+  margin: 10px 0 10px 0;
+}
+footer div nav ul li a {
+  color: #8a8fb9;
+}
+footer div nav ul li {
+  margin: 10px 0 10px 0;
+}
